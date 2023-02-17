@@ -2,7 +2,7 @@
 @php
     $year = App\Event::Where('status' , 'ACTIVE')->first();
 @endphp
-<body class="antialiased">
+<body class="antialiased" style="padding: 10px">
     <div class="formbold-main-wrapper">
         <!-- Author: FormBold Team -->
         <!-- Learn More: https://formbold.com -->
